@@ -14,6 +14,15 @@
     </div>
     </div>
     `
+
+    let respostaEstaVisivel = False 
+
+    function viraCartao() {
+        respostaEstaVisivel = !respostaEstaVisivel
+
+    }
+
+
     container.appendChild(cartao)
 
 }
